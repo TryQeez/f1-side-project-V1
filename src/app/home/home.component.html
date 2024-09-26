@@ -1,0 +1,13 @@
+<div class="d-flex flex-column">
+  <div class="d-flex flex-row mb-4">
+    <label for="select_folder">Saison ?</label>
+    <select id="select_folder" class="ms-1" [formControl]="currentFolder">
+      <option *ngFor="let folder of folders" [ngValue]="folder">{{ folder.name }}</option>
+    </select>
+    <label for="select_file">Quel GP ?</label>
+    <select id="select_file" class="ms-1" [formControl]="currentFile">
+      <option *ngFor="let file of files" [ngValue]="file">{{ file.title }}</option>
+    </select>
+  </div>
+  <iframe [src]="getRessourceUrl()" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="640" height="360" allowfullscreen></iframe>
+</div>
