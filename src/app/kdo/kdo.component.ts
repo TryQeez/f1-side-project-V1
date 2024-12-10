@@ -31,6 +31,8 @@ export class KdoComponent implements OnInit{
       this.commandText = command
     } else if (command.toLowerCase().includes('sorcier')) {
       this.commandText = command
+    } else {
+      this.commandText = command
     }
   }
 }
