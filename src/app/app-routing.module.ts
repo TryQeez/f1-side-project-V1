@@ -5,7 +5,7 @@ import {KdoComponent} from "./kdo/kdo.component";
 
 const routes: Routes = [
     {path: 'home', component: HomeComponent},
-    {path: 'leCadeauDeDameBohu2024', component: KdoComponent},
+    {path: 'kdo', component: KdoComponent},
     {path: '**', redirectTo: 'home', pathMatch: 'full'}
   ];
 @NgModule({

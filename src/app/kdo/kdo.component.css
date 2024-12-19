@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'appfont';
+  src: url('../../../public/hp_font.TTF');
+}
+
+p {
+  font-family: 'appfont';
+  font-size: 24px;
+}
+
+body {
+  background-image: url('../../../public/hogwarts.jpg'); /* Remplacez par le chemin de votre image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Old Standard TT', serif; /* Ou une police similaire */
+  margin: 0;
+  padding: 0;
+  height: 1200px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.65); /* Fond légèrement translucide */
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.container h1 {
+  color: #a0522d;
+}
+
+/* Ajoutez ici d'autres styles pour adapter l'apparence */
