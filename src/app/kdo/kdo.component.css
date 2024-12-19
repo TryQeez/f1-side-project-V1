@@ -15,8 +15,8 @@ body {
   font-family: 'Old Standard TT', serif; /* Ou une police similaire */
   margin: 0;
   padding: 0;
-  height: 2400px;
-  width: 1080px;
+  height: 915px;
+  width: 412px;
 }
 
 .container {
@@ -25,7 +25,7 @@ body {
   margin: 0;
   text-align: center;
   min-width: -webkit-fill-available;
-  height: 2400px;
+  height: 915px;
 }
 
 .container h1 {
