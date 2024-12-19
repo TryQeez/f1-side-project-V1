@@ -1,6 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {VoiceRecognitionService} from "../service/voice-recognition.service";
-import {Routes} from "@angular/router";
 
 @Component({
   selector: 'app-kdo',
@@ -12,7 +10,7 @@ import {Routes} from "@angular/router";
 export class KdoComponent implements OnInit {
 
 
-  constructor(private voiceRecognitionService: VoiceRecognitionService) {
+  constructor() {
   }
 
   ngOnInit(): void {
